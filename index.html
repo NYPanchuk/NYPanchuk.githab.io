@@ -10,21 +10,47 @@
 			width: 600px;
 			margin: 60px auto;
 			padding: 20px;}
-	.caption{
+	#caption{
 			background-color: #2F4F4F;
 			}		
 		h1 {text-align: center;
 			color: white;
 			font-family: calibri light;	
 			 }	
+	.flex {
+			display: flex;
+	 		}
+	 #left {
+	 		background: linear-gradient(45deg, #696969 0%, #808080 50%, #A9A9A9 100%);
+	 		width: 30%;
+	 		text-align: center;
+	 		 		}		
+	 .radius {
+	 		border-radius: 40px; 
+    		border: 2px solid #DCDCDC; 
+    	    }	
+    	h2 { 
+    		color: white;
+    		border-bottom: 3px solid yellow;
+    		 
+    		}    	
 	</style>
 </head>
 <body>
 <body style="background: #0e0e0e;">
 	<div class="parent">
-		<div class="caption">
+		<div id="caption">
 			<h1>My Homework</h1>
-			
+				<div class='flex'>
+					<div id="left">
+						<p><img src="C:\Users\NataPC\Downloads\10840686.jpg" alt="Пример" width="150" height="110" class="radius"></p>
+						<div>
+							<h1>CIPKO</h1>
+							<h2>І ВОВЧИК</h2>
+						</div>
+					</div>
+					<div id="right"></div>
+				</div>
 		</div>
 	</div>
 </body>
