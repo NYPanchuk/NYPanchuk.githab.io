@@ -9,31 +9,63 @@
 			border: 2px solid grey;
 			width: 600px;
 			margin: 60px auto;
-			padding: 20px;}
+			padding: 20px;
+		    }
+
 	#caption{
 			background-color: #2F4F4F;
-			}		
+			}	
+
 		h1 {text-align: center;
 			color: white;
 			font-family: calibri light;	
 			 }	
+
 	.flex {
 			display: flex;
 	 		}
-	 #left {
+
+	#left {
 	 		background: linear-gradient(45deg, #696969 0%, #808080 50%, #A9A9A9 100%);
 	 		width: 30%;
 	 		text-align: center;
-	 		 		}		
-	 .radius {
+	 		}	
+
+	.radius {
 	 		border-radius: 40px; 
     		border: 2px solid #DCDCDC; 
-    	    }	
-    	h2 { 
+    	    }
+
+    #line { 
+    		border-bottom: 3px solid yellow; 
+    		}
+
+    	h3 {
     		color: white;
-    		border-bottom: 3px solid yellow;
-    		 
-    		}    	
+    		font-family: arial;
+    	    }
+    	table {
+    		color: white;
+    	    }
+    #orange {
+    		position: relative right; 
+    		background: orange;
+    		border-radius: 8px; 
+    		}
+    #blue   {
+    		position: relative left;
+    		background: blue;
+    		border-radius: 8px; 
+   		    }
+   	#green  {
+   		    position: relative center;
+   		    background: green;
+   		    border-radius: 8px;
+   			}
+   		ul  {
+   			color: white;
+   			text-align: left;
+   			}		    			    
 	</style>
 </head>
 <body>
@@ -46,8 +78,33 @@
 						<p><img src="C:\Users\NataPC\Downloads\10840686.jpg" alt="Пример" width="150" height="110" class="radius"></p>
 						<div>
 							<h1>CIPKO</h1>
-							<h2>І ВОВЧИК</h2>
+							<h1 id="line">І ВОВЧИК</h1>
 						</div>
+						<div>
+							<h3><u>Люблять:</u></h3>
+						</div>
+						<table>
+							<tr>
+								<td id="orange">Поспівати</td>
+							</tr>
+							<tr>
+								<td id="blue">Полювати</td>
+							</tr>
+							<tr>
+								<td id="green">На весіллі погуляти</td>
+							</tr>
+						</table>
+						<ul>
+							<li>
+								<a href="http://www.vk.com">Vk</a>
+							</li>
+							<li>
+								<a href="http://www.ok.ru">Ok</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com">Facebook</a>
+							</li>
+						</ul>
 					</div>
 					<div id="right"></div>
 				</div>
