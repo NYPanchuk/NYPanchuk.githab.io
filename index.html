@@ -6,14 +6,16 @@
 	<style type="text/css">
 	.parent {
 			background-color: white;
-			border: 2px solid grey;
+			border: 2px solid #DCDCDC;
 			width: 600px;
-			margin: 60px auto;
-			padding: 20px;
+			margin: 30px auto;
+			padding: 10px;
 		    }
 
 	#caption{
-			background-color: #2F4F4F;
+			background-color: rgb(61,79,91);
+			margin: 0 auto;
+			border: 3px solid #DCDCDC;
 			}	
 
 		h1 {text-align: center;
@@ -23,12 +25,14 @@
 
 	.flex {
 			display: flex;
+
 	 		}
 
 	#left {
 	 		background: linear-gradient(45deg, #696969 0%, #808080 50%, #A9A9A9 100%);
 	 		width: 30%;
 	 		text-align: center;
+	 		padding: 10px;
 	 		}	
 
 	.radius {
@@ -38,6 +42,8 @@
 
     #line { 
     		border-bottom: 3px solid yellow;
+    		text-align: center;
+    		width: 160px;
 
     		}
 
@@ -45,23 +51,29 @@
     		color: white;
     		font-family: arial;
     	    }
-    	table {
+    	h2 {
     		color: white;
     	    }
     #orange {
+    		color: white;
     		background: orange;
     		border-radius: 8px;
-    		width: 90px; 
+    		width: 140px; 
+    		font-size: 14px;
     		}
     #blue   {
+    		color: white;
        		background: blue;
     		border-radius: 8px; 
-    		width: 50px; 
+    		width: 110px; 
+    		font-size: 14px;
    		    }
-   	#green  {
+   	#green  {	
+   			color: white;
    		    background: green;
    		    border-radius: 8px;
-   		    width: 300px; 
+   		    width: 165px; 
+   		    font-size: 14px;
    			}
    		ul  {
    			color: white;
@@ -70,6 +82,10 @@
    	#right  {
    			background: white;
    			color: #4682B4;
+   			width: 70%;
+   			padding: 10px;
+   			font-size: 17px;
+
    			}	
    	.blue	{
    			border-bottom: 3px solid blue;
@@ -85,23 +101,18 @@
 					<div id="left">
 						<p><img src="C:\Users\NataPC\Downloads\10840686.jpg" alt="Пример" width="150" height="110" class="radius"></p>
 						<div>
-							<h1>CIPKO</h1>
-							<h1 id="line">І ВОВЧИК</h1>
+							<h2>CIPKO</h2>
+							<h2 id="line">І ВОВЧИК</h2>
 						</div>
 						<div>
 							<h3><u>Люблять:</u></h3>
 						</div>
-						<table>
-							<tr>
-								<td id="orange">Поспівати</td>
-							</tr>
-							<tr>
-								<td id="blue">Полювати</td>
-							</tr>
-							<tr>
-								<td id="green">На весіллі погуляти</td>
-							</tr>
-						</table>
+							<div id="orange"><p>Поспівати</p></div>
+							<div id="blue"><p>Полювати</p></div>	
+							<div id="green"><p>На весіллі погуляти</p></div>
+							<div>
+								<h3><u>Контакти:</u></h3>
+							</div>
 						<ul>
 							<li>
 								<a href="http://www.vk.com">Vk</a>
@@ -129,8 +140,8 @@
 						</div>
 						<div>
 							<p><b>Про нас:</b></p>
-							<p>не палимо</p>
-							<p class="blue">вживаємо</p>
+							<p>- не палимо</p>
+							<p class="blue">- вживаємо</p>
 						</div>
 					</div>
 				</div>
